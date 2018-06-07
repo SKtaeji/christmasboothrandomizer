@@ -1,0 +1,38 @@
+html {
+  padding: 0;
+  margin: 0;
+}
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+header {
+  font-size: 9vmin;
+  background-color: rgba(0,0,0,0.5);
+  color: whitesmoke;
+  text-align: center;
+}
+
+body {
+  background: radial-gradient(
+    circle at 33% 100%,
+    #fed373 4%,
+    #f15245 30%,
+    #d92e7f 62%,
+    #9b36b7 85%,
+    #515ecf
+  );
+  font-family: "Inconsolata", monospace;
+  font-weight: bold;
+  font-size: 8vmin;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  fill: #fff;
+  padding: 0;
+}
+
+.container {
+  text-align: center;
+  padding-top: 96px;
+}
